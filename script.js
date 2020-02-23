@@ -6647,74 +6647,74 @@ licks.onchange = function () {
         console.log('lick 1')
 
 
-    } else if (licks.value == 2){
+    } else if (licks.value == '3'){
 
-        soundslice.src = ''
+        soundslice.src = 'https://www.soundslice.com/slices/glRNc/embed-channelpost/'
         video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        h1.innerHTML = 'Pentatônica - Lick 3'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '4'){
 
-        soundslice.src = ''
+        soundslice.src = 'https://www.soundslice.com/slices/GlRNc/embed-channelpost/'
         video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        h1.innerHTML = 'Pentatônica - Lick 4'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '5'){
 
-        soundslice.src = ''
+        soundslice.src = 'https://www.soundslice.com/slices/rlRNc/embed-channelpost/'
         video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        h1.innerHTML = 'Pentatônica - Lick 5'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '6'){
 
-        soundslice.src = ''
+        soundslice.src = 'https://www.soundslice.com/slices/hlRNc/embed-channelpost/'
         video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        h1.innerHTML = 'Pentatônica - Lick 6'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '7'){
 
-        soundslice.src = ''
+        soundslice.src = 'https://www.soundslice.com/slices/mlRNc/embed-channelpost/'
         video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        h1.innerHTML = 'Pentatônica - Lick 7'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '8'){
 
-        soundslice.src = ''
+        soundslice.src = 'https://www.soundslice.com/slices/vlRNc/embed-channelpost/'
         video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        h1.innerHTML = 'Pentatônica - Lick 8'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '9'){
 
-        soundslice.src = ''
+        soundslice.src = 'https://www.soundslice.com/slices/plRNc/embed-channelpost/'
         video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        h1.innerHTML = 'Pentatônica - Lick 9'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '10'){
 
-        soundslice.src = ''
+        soundslice.src = 'https://www.soundslice.com/slices/czRNc/embed-channelpost/'
         video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        h1.innerHTML = 'Pentatônica - Lick 10'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
