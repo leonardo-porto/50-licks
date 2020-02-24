@@ -6598,12 +6598,7 @@ function print(nomeDaLicao, corpoDaLicao) {
 
     corpo.innerHTML = corpoDaLicao
 
-    let assinatura = document.createElement('p')
-    body.appendChild(assinatura)
-
-    assinatura.innerHTML = 'Prof. Leo Porto'
-    assinatura.style.fontFamily = 'sans-serif'
-    assinatura.style.fontWeight = 'bold'
+    
 
 
 
@@ -6631,6 +6626,8 @@ licks.onchange = function () {
 
     if (licks.value == '1'){
 
+        apagar()
+
         soundslice.src = 'https://www.soundslice.com/slices/pNRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/j1ZFXEpVM8Q'
         h1.innerHTML = 'Pentatônica - Lick 1'
@@ -6640,6 +6637,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '2'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/5lRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/fHgAwzNm7G4?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 2'
@@ -6649,6 +6647,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '3'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/glRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/vLeMNiyXguY?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 3'
@@ -6658,6 +6657,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '4'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/GlRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/Coye7X5XFQs?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 4'
@@ -6667,6 +6667,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '5'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/rlRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/rmYZ3q-__II?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 5'
@@ -6676,6 +6677,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '6'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/hlRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/qGfudthvRjE?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 6'
@@ -6685,6 +6687,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '7'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/mlRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/kGiabMJwrUg?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 7'
@@ -6694,6 +6697,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '8'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/vlRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/gU2qElHJUX8?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 8'
@@ -6703,6 +6707,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '9'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/plRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/E9UbUrFNFXI?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 9'
@@ -6712,6 +6717,7 @@ licks.onchange = function () {
 
     } else if (licks.value == '10'){
 
+        apagar()
         soundslice.src = 'https://www.soundslice.com/slices/czRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/hMmGXHOgpM0?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
         h1.innerHTML = 'Pentatônica - Lick 10'
@@ -6719,362 +6725,464 @@ licks.onchange = function () {
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '11'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/VzRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/USrbiR3FZzw?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
+        h1.innerHTML = 'Pentatônica - Lick 11'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '12'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/-3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/0LNhTwl2vTU?list=PLKJpTqKLvfLLwdx5geaPHQuXsLcpflFVO'
+        h1.innerHTML = 'Pentatônica - Lick 12'
+        criaShapePenta('8', '10', '7', '10', '7', '10', '7', '9', '8', '10', '8', '10')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '13'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/Q3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/tj9Qgcdhvv0'
+        h1.innerHTML = 'Pentatônica - Lick 13'
+        criaShapePenta('8', '10', '7', '10', '7', '10', '7', '9', '8', '10', '8', '10')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '14'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/n3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/roTud7GhTfw'
+        h1.innerHTML = 'Pentatônica - Lick 14'
+        criaShapePenta('8', '10', '7', '10', '7', '10', '7', '9', '8', '10', '8', '10')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '15'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/F3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/cYgM7XstSFc'
+        h1.innerHTML = 'Pentatônica - Lick 15'
+        criaShapePenta('8', '10', '7', '10', '7', '10', '7', '9', '8', '10', '8', '10')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '16'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/t3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/HpoJYqKHAls'
+        h1.innerHTML = 'Pentatônica - Lick 16'
+        criaShapePenta('8', '10', '7', '10', '7', '10', '7', '9', '8', '10', '8', '10')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '17'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/53RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/JrektWc1jvs'
+        h1.innerHTML = 'Pentatônica - Lick 17'
+        criaShapePenta('8', '10', '7', '10', '7', '10', '7', '9', '8', '10', '8', '10')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '18'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/51RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/wAbFLg8ruAo'
+        h1.innerHTML = 'Pentatônica - Lick 18'
+        criaShapePenta('12', '15', '12', '15', '12', '14', '12', '14', '13', '15', '12', '15')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '19'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/g1RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/KTXUk394eOw'
+        h1.innerHTML = 'Pentatônica - Lick 19'
+        criaShapePenta('12', '15', '12', '15', '12', '14', '12', '14', '13', '15', '12', '15')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '20'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/61RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/c0OQZHHRag0'
+        h1.innerHTML = 'Pentatônica - Lick 20'
+        criaShapePenta('12', '15', '12', '15', '12', '14', '12', '14', '13', '15', '12', '15')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '21'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/G1RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/7fAIzQg2nsU'
+        h1.innerHTML = 'Pentatônica - Lick 21'
+        criaShapePenta('12', '15', '12', '15', '12', '14', '12', '14', '13', '15', '12', '15')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '22'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/r1RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/o8r8CsIvPHg'
+        h1.innerHTML = 'Pentatônica - Lick 22'
+        criaShapePenta('12', '15', '12', '15', '12', '14', '12', '14', '13', '15', '12', '15')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '23'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/YjRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/c_aApaO9ufA'
+        h1.innerHTML = 'Pentatônica - Lick 23'
+        criaShapePenta('3', '5', '3', '5', '2', '5', '2', '5', '3', '5', '3', '5')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '24'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/ljRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/mEwCe7se8Dg'
+        h1.innerHTML = 'Pentatônica - Lick 24'
+        criaShapePenta('3', '5', '3', '5', '2', '5', '2', '5', '3', '5', '3', '5')
+        tab(2, 4)
+        console.log('lick 1')
+
+
+    } else if (licks.value == '25'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/zjRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/Rw93wQR9YQM'
+        h1.innerHTML = 'Pentatônica - Lick 25'
+        criaShapePenta('3', '5', '3', '5', '2', '5', '2', '5', '3', '5', '3', '5')
+        console.log('lick 1')
+
+
+    } else if (licks.value == '26'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/7nRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/iX3-oYD0VG0'
+        h1.innerHTML = 'Pentatônica - Lick 26'
+        tab(1, 3)
+        tab(1, 8)
+        tab(1, 10)
+        tab(1, 12)
+        tab(1, 5)
+        tab(1, 15)
+        tab(2, 3)
+        tab(2, 5)
+        tab(2, 8)
+        tab(2, 10)
+        tab(2, 13)
+        tab(2, 15)
+        console.log('lick 1')
+
+
+    } else if (licks.value == '27'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/WnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/9km2ebOK1Lo'
+        h1.innerHTML = 'Pentatônica - Lick 27'
+        tab(3, 2)
+        tab(3, 5)
+        tab(3, 7)
+        tab(3, 9)
+        tab(3, 12)
+        tab(3, 14)
+        tab(4, 2)
+        tab(4, 5)
+        tab(4, 7)
+        tab(4, 10)
+        tab(4, 12)
+        tab(4, 14)
+        console.log('lick 1')
+
+
+    } else if (licks.value == '28'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/BnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/ldKBKkg81ak'
+        h1.innerHTML = 'Pentatônica - Lick 28'
+        tab(1, 3)
+        tab(1, 8)
+        tab(1, 10)
+        tab(1, 12)
+        tab(1, 5)
+        tab(1, 15)
+        tab(2, 3)
+        tab(2, 5)
+        tab(2, 8)
+        tab(2, 10)
+        tab(2, 13)
+        tab(2, 15)
+        tab(3, 2)
+        tab(3, 5)
+        tab(4, 5)
+        console.log('lick 1')
+
+
+    } else if (licks.value == '29'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/ZnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/FY6XlCi9yt8'
+        h1.innerHTML = 'Pentatônica - Lick 29'
+        tab(3, 2)
+        tab(3, 5)
+        tab(3, 7)
+        tab(3, 9)
+        tab(3, 12)
+        tab(3, 14)
+        tab(4, 2)
+        tab(4, 5)
+        tab(4, 7)
+        tab(4, 10)
+        tab(4, 12)
+        tab(4, 14)
+        
+        
+        console.log('lick 1')
+
+
+    } else if (licks.value == '30'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/LnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/Zu0f0PSx144'
+        h1.innerHTML = 'Pentatônica - Lick 30'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '31'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/jnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/X4bTQViePII'
+        h1.innerHTML = 'Pentatônica - Lick 31'
+        tab(6, 3)
+        tab(6, 5)
+        tab(6, 8)
+        tab(5, 5)
+        tab(5, 7)
+        tab(4, 7)
+        tab(4, 10)
+        tab(3, 7)
+        tab(3, 9)
+        tab(2, 10)
+        tab(2, 13)
+        tab(1, 10)
+        tab(1, 12)
+        console.log('lick 1')
+
+
+    } else if (licks.value == '32'){
+
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/9nRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/lwVUrI5AS8w'
+        h1.innerHTML = 'Pentatônica - Lick 32'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '33'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/KnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/ljykGurU_gQ'
+        h1.innerHTML = 'Pentatônica - Lick 33'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '34'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/xnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/uZqWMjMLpwk'
+        h1.innerHTML = 'Pentatônica - Lick 34'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '35'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/-nRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/N7QUxBkLeJ8'
+        h1.innerHTML = 'Pentatônica - Lick 35'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '36'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/QnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/cQ1SyzcpQBM'
+        h1.innerHTML = 'Pentatônica - Lick 36'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '37'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/nnRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/ABo0pPo8Jro'
+        h1.innerHTML = 'Pentatônica - Lick 37'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '38'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/RzRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/aGT54_yziNg'
+        h1.innerHTML = 'Pentatônica - Lick 38'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '39'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/qzRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/7PUMKNw2V6I'
+        h1.innerHTML = 'Pentatônica - Lick 39'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '40'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/HzRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/b-gXnATyYf0'
+        h1.innerHTML = 'Pentatônica - Lick 40'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '41'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/TzRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/ynf5QLwhAIY'
+        h1.innerHTML = 'Pentatônica - Lick 41'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '42'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/JzRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/f3JMZ006I6k'
+        h1.innerHTML = 'Pentatônica - Lick 42'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '43'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/g3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/uNw1DWuxhTM'
+        h1.innerHTML = 'Pentatônica - Lick 43'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '44'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/63RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/80AccJ06eTk'
+        h1.innerHTML = 'Pentatônica - Lick 44'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '45'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/G3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/r-gKPZvc1F4'
+        h1.innerHTML = 'Pentatônica - Lick 45'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '46'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/r3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/iQVnvF53oaI'
+        h1.innerHTML = 'Pentatônica - Lick 46'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '47'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/h3RNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/F0Eg0fkwBm4'
+        h1.innerHTML = 'Pentatônica - Lick 47'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '48'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/JTRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/DILWA_iidXE'
+        h1.innerHTML = 'Pentatônica - Lick 48'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value == '49'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/bTRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/tv-6kprRRVg'
+        h1.innerHTML = 'Pentatônica - Lick 49'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
 
-    } else if (licks.value = 2){
+    } else if (licks.value = '50'){
 
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
-        console.log('lick 1')
-
-
-    } else if (licks.value = 2){
-
-        soundslice.src = ''
-        video.src = ''
-        h1.innerHTML = 'Pentatônica - Lick 2'
+        apagar()
+        soundslice.src = 'https://www.soundslice.com/slices/1TRNc/embed-channelpost/'
+        video.src = 'https://www.youtube.com/embed/WHo9yQonSAA'
+        h1.innerHTML = 'Pentatônica - Lick 50'
         criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
         console.log('lick 1')
 
