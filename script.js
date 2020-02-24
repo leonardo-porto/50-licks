@@ -7003,7 +7003,9 @@ licks.onchange = function () {
         soundslice.src = 'https://www.soundslice.com/slices/9nRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/lwVUrI5AS8w'
         h1.innerHTML = 'Pentatônica - Lick 32'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
+        criaShapePenta('3', '5', '3', '5', '5', '7', '5', '7', '8', '10', '8', '10')
+        tab(1, 12)
+        tab(3, 9)
         console.log('lick 1')
 
 
@@ -7013,7 +7015,19 @@ licks.onchange = function () {
         soundslice.src = 'https://www.soundslice.com/slices/KnRNc/embed-channelpost/'
         video.src = 'https://www.youtube.com/embed/ljykGurU_gQ'
         h1.innerHTML = 'Pentatônica - Lick 33'
-        criaShapePenta('5', '8', '5', '7', '5', '7', '5', '7', '5', '8', '5', '8')
+        tab(1, 5)
+        tab(1, 15)
+        tab(1, 8)
+        tab(1, 10)
+        tab(1, 12)
+        tab(2, 8)
+        tab(2, 10)
+        tab(2, 13)
+        tab(2, 15)
+        tab(3, 7)
+        tab(3, 9)
+        tab(3, 12)
+        tab(3, 14)
         console.log('lick 1')
 
 
